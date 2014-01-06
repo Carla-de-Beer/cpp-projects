@@ -1,3 +1,8 @@
+/* Carla de Beer
+ * October 2013
+ * Code to calculate greatest common denominator recursively
+ */
+
 #include <iostream>
 using namespace std;
 

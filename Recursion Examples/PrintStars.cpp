@@ -1,3 +1,8 @@
+/* Carla de Beer
+ * October 2013
+ * Code to print star triangles recursively
+ */
+
 #include <iostream>
 
 using namespace std;

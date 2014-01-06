@@ -1,3 +1,8 @@
+/* Carla de Beer
+ * October 2013
+ * Code to reverse strings recursively
+ */
+
 #include <iostream>
 #include <cstring>
 using namespace std;

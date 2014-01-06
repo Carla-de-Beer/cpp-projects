@@ -1,5 +1,10 @@
- #include <iostream>
-  #include <cstring>
+/* Carla de Beer
+ * October 2013
+ * Code to determine palindromes recursively
+ */
+
+#include <iostream>
+#include <cstring>
 using namespace std;
 
 bool isPalindrome(char[], int size);

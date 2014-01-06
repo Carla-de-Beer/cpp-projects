@@ -1,3 +1,8 @@
+/* Carla de Beer
+ * October 2013
+ * Code to calculate Catalan numbers recursively
+ */
+
 #include <iostream>
 using namespace std;
 

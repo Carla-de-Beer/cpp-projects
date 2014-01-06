@@ -1,3 +1,8 @@
+/* Carla de Beer
+ * October 2013
+ * Code to reverse a C-string recursively
+ */
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -9,7 +14,6 @@ int main()
   char * ptr = new char[10];
   strcpy(ptr, "words");
   reverse(ptr);
-  
   cout << endl;
   
   return 0;
