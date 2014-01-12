@@ -1,4 +1,5 @@
-/* Carla de Beer
+/*
+ * Carla de Beer
  * October 2013
  * Code to sum a set of even numbers recursively
  */

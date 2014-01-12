@@ -1,6 +1,7 @@
-/* Carla de Beer
+/*
+ * Carla de Beer
  * October 2013
- * Code to concatenate two C-strings recursively
+ * Code to concatenate C-strings recursively
  */
 
 #include <iostream>

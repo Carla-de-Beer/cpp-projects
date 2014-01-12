@@ -1,6 +1,7 @@
-/* Carla de Beer
+/*
+ * Carla de Beer
  * October 2013
- * Code to determine C-string length recursively
+ * Code to calculate word length recursively
  */
 
 #include <iostream>

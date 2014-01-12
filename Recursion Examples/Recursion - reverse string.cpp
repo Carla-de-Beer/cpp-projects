@@ -1,6 +1,7 @@
-/* Carla de Beer
+/*
+ * Carla de Beer
  * October 2013
- * Code to reverse strings recursively
+ * Code to reverse C-strings recursively
  */
 
 #include <iostream>

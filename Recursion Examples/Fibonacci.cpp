@@ -1,4 +1,5 @@
-/* Carla de Beer
+/*
+ * Carla de Beer
  * October 2013
  * Code to calculate Fibonacci numbers recursively
  */
