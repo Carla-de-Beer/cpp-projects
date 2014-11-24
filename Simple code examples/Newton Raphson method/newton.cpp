@@ -1,7 +1,7 @@
 // Carla de Beer
 // C++ code employing the Newton Raphson approximation method to generate the root of a polynomial of the form:
 // ax^6 + bx^5 + cx^4+ dx^3+ ex^2 + fx + g
-// November 2014
+// Date created: 20/10/2014
 
 #include <iostream>
 #include <iomanip>
