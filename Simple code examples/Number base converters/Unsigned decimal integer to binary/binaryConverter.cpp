@@ -1,7 +1,7 @@
 // Carla de Beer
-// Binary converter: uses both the divison remainder and repeated subtraction method
-// Run the code and enter a decimal integer for conversion
-// Date created: 08/08/2014
+// Binary converter: uses both the division-remainder and repeated subtraction methods
+// Run the code and enter an unsigned decimal integer for conversion
+// Date created: 06/08/2014
 
 #include <iostream>
 #include <cmath>
@@ -13,7 +13,7 @@ string divisionRemainder(unsigned int _input);
 
 
 int main() {  
-  cout << "Enter a decimal number for conversion:" << endl;
+  cout << "Enter an unsigned decimal number for conversion:" << endl;
   int decimal;
   cin >> decimal;
   
