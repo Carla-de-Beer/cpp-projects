@@ -59,11 +59,11 @@ int main()
 	// ----------------- Create an add an even and odd list
 	
 	LinkedList<int> evenList; 
-	for(int i=0; i<20; i+=2)
+	for (int i=0; i<20; i+=2)
 	  evenList.insertLast(i);
 	
 	LinkedList<int> oddList; 
-	for(int i=1; i<20; i+=2)
+	for (int i=1; i<20; i+=2)
 	  oddList.insertLast(i);
 	
 	cout << "oddList has " << oddList.getElementCount() << " elements." << endl;

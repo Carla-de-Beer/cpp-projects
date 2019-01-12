@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 // Carla de Beer
 // October 2013
 // Code to concatenate two C-strings recursively
 
-=======
->>>>>>> Added files
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -23,10 +20,10 @@ int main()
 
 char * concat(char * s1, char * s2)
 {
-  if(*s1 == '\0')
+  if (*s1 == '\0')
     return s2;
   
-  if(*s2 == '\0')
+  if (*s2 == '\0')
     return s1;
   
   else // memory leak problem
@@ -41,6 +38,5 @@ char * concat(char * s1, char * s2)
     s1[strlen(s1)] = *s2;
     s1[strlen(s1) + 1] = '\0';
     concat(s1, ++s2);
-    
   }
 }

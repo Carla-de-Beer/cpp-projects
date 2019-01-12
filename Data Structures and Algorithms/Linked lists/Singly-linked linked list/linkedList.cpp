@@ -45,7 +45,6 @@ void LinkedList<T>::copyList(const LinkedList& other)
 	else {  // other list is empty
 		head = NULL;
 	}
-
 }
 
 template <class T>
@@ -81,9 +80,9 @@ int LinkedList<T>::getElementCount(Node * current) const
 {
   assert(current);
   count++;
-  if(!current) return 0;
+  if (!current) return 0;
   
-  if(!current->link) return 1; 
+  if (!current->link) return 1; 
   else
   {
     return 1 + getElementCount(current->link);
@@ -144,7 +143,7 @@ LinkedList<T> LinkedList<T>::operator+(const LinkedList<T>& other) const
 {
 	LinkedList bigList = *this;
 	Node *current = other.head;
-	while(current) {
+	while (current) {
 		bigList.insertLast(current->info);	
 		current = current->link;
 	}

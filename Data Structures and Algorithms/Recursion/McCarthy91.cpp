@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 // Carla de Beer
 // October 2013
 // Code to calculate McCarthy91 numbers recursively
 
-=======
->>>>>>> Added files
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -20,9 +17,9 @@ int main()
 int McCarthy91(int n)
 {
   if (n > 100)
+  {
     return n - 10;
-  
-  else
+  } else
   {
     n = McCarthy91(McCarthy91(n + 11));
     return n;

@@ -1,21 +1,21 @@
-<<<<<<< HEAD
 // Carla de Beer
 // October 2013
 // Code to calculate the Greatest Common Denominator recursively
 
-=======
->>>>>>> Added files
 #include <iostream>
 using namespace std;
 
-int gcd(int x, int y);
+int gcd(int, int);
+int gcdRecursive(int, int); 
 
 int main()
 {
   int result = gcd(8, 24);
-  
-  cout << "The greatest common divsior is: " << result << endl;
+  cout << "gcd(8, 24): The greatest common divsior is: " << result << endl;
 
+  result = gcdRecursive(54, 24);
+  cout << "gcd(54, 24): The greatest common divsior is: " << result << endl;
+  
   return 0;
 }
 
@@ -29,37 +29,25 @@ int gcd(int x, int y)
    else 
    {
      y = x % y;
-     //cout << "x % y = " << (double) (x % y) << endl;
-     gcd(x,y);
+     gcd(x, y);
    }
   }
   
   else
   {
-   if(y % x == 0) return x;
+   if (y % x == 0) return x;
    else
    {
     x = y % x;
-    gcd(x,y);
+    gcd(x, y);
    }
   }
 }
 
-
-/*
-int gcd(int x, int y)
+int gcdRecursive(int a, int b) 
 {
-  
-  if(x > y)
-  {
-   if(y == 0) return x;
-   
-   else
-   {
-    if (x == 0) return y;
-    return (x, y%x);
-   }
-  }
-  
+  if (a == 0) {
+    return b;
+  } 
+  return gcd(b % a, a);
 }
-*/
