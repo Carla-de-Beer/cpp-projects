@@ -24,7 +24,7 @@ int catalanNumber(int n)
   
   for (int i = 1; i <=n; ++i)
   {
-    result+= catalanNumber(i - 1) * catalanNumber(n-i);
+    result += catalanNumber(i - 1) * catalanNumber(n-i);
   }
   return result;
 }

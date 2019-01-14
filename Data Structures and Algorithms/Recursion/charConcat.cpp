@@ -6,19 +6,19 @@
 #include <cstring>
 using namespace std;
 
-char * concat(char * s1, char * s2);
+char * concat(char *s1, char *s2);
 
 int main()
 {
   char word1[] = "Adding";
   char word2[] = "_together";
-  char * t = concat(word1, word2);
+  char *t = concat(word1, word2);
   
   cout << t << endl;
   return 0;
 }
 
-char * concat(char * s1, char * s2)
+char * concat(char *s1, char *s2)
 {
   if (*s1 == '\0')
     return s2;

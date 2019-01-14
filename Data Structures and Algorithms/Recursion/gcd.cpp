@@ -5,21 +5,21 @@
 #include <iostream>
 using namespace std;
 
-int gcd(int, int);
-int gcdRecursive(int, int); 
+int gcd1(int, int);
+int gcd2(int, int); 
 
 int main()
 {
-  int result = gcd(8, 24);
+  int result = gcd1(8, 24);
   cout << "gcd(8, 24): The greatest common divsior is: " << result << endl;
 
-  result = gcdRecursive(54, 24);
+  result = gcd2(54, 24);
   cout << "gcd(54, 24): The greatest common divsior is: " << result << endl;
   
   return 0;
 }
 
-int gcd(int x, int y)
+int gcd1(int x, int y)
 {
   if (x > y)
   {
@@ -29,7 +29,7 @@ int gcd(int x, int y)
    else 
    {
      y = x % y;
-     gcd(x, y);
+     gcd1(x, y);
    }
   }
   
@@ -39,15 +39,15 @@ int gcd(int x, int y)
    else
    {
     x = y % x;
-    gcd(x, y);
+    gcd1(x, y);
    }
   }
 }
 
-int gcdRecursive(int a, int b) 
+int gcd2(int a, int b) 
 {
   if (a == 0) {
     return b;
   } 
-  return gcd(b % a, a);
+  return gcd2(b % a, a);
 }

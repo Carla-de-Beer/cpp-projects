@@ -13,6 +13,7 @@ int main()
   char * ptr = new char[10];
   strcpy(ptr, "words");
   reverse(ptr);
+  
   cout << endl;
   return 0;
 }

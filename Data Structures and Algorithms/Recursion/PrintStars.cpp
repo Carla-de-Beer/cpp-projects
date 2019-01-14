@@ -12,8 +12,8 @@ int main()
 {
   //printStars(5);
   printTriangle(5);
-  cout << endl;
   
+  cout << endl;
   return 0;
 }
 
